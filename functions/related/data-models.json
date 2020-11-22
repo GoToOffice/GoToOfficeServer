@@ -1,0 +1,74 @@
+{
+  "Bussiness" : {
+    "Offices" : {
+      "1588263592906" : {
+        "country" : "",
+        "description" : "",
+        "name" : "office1",
+        "rooms" : {
+          "1588263592911" : {
+            "name" : "The sea",
+            "type" : "Meetings"
+          },
+          "1588263592912" : {
+            "name" : "the kitchen",
+            "type" : "OpenSpace"
+          }
+        },
+        "seats" : {
+          "1588263592921" : {
+            "chairType" : "Adjustable",
+            "location" : "next to a window",
+            "reservations" : [ {
+              "reservationId" : "1588263592907",
+              "time" : ""
+            } ],
+            "roomId" : "1588263592911",
+            "type" : "FullyEquip"
+          },
+          "1588263592922" : {
+            "chairType" : "Stool",
+            "location" : "next to the kitchen",
+            "reservations" : [ {
+              "reservationId" : "1588263592907",
+              "time" : ""
+            }, {
+              "reservationId" : "1588263592908",
+              "time" : ""
+            } ],
+            "type" : "OpenStation"
+          }
+        }
+      }
+    },
+    "Reservations" : {
+      "1588263592907" : {
+        "officeId" : "1588263592906",
+        "roomId" : "1588263592911",
+        "seatId" : "1588263592921",
+        "time" : [ "21-11-2020", "25-11-2020" ],
+        "userId" : "1588263592908"
+      },
+      "1588263592908" : {
+        "officeId" : "1588263592906",
+        "seatId" : "1588263592922",
+        "time" : [ "21-12-2020", "25-12-2020" ],
+        "userId" : "1588263592808"
+      }
+    },
+    "Users" : {
+      "1588263592808" : {
+        "email" : "",
+        "offices" : [ "1588263592906" ],
+        "reservations" : [ {
+          "reservationId" : "1588263592907",
+          "time" : ""
+        }, {
+          "reservationId" : "1588263592908",
+          "time" : ""
+        } ],
+        "userName" : ""
+      }
+    }
+  }
+}
