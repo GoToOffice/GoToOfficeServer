@@ -1,6 +1,5 @@
 {
-  "Bussiness" : {
-    "Offices" : {
+  "Offices" : {
       "1588263592906" : {
         "country" : "",
         "description" : "",
@@ -71,4 +70,4 @@
       }
     }
   }
-}
+
